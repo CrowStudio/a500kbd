@@ -43,3 +43,9 @@ moment), is as follows:
 
 Also the scroll lock light on the external keyboard, mirrors the drive activity
 LED on the amiga.
+
+
+Notes
+------------
+
+This is my first design on Kicad, I usually use EaglePCB so if you see any error on the design is just for that :)

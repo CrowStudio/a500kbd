@@ -16,6 +16,7 @@ Directory structure:
 License
 -------
 Copyright (C) 2017 John Tsiombikas <nuclear@member.fsf.org>
+
 Copyright (C) 2019 Eduardo Arana <info@arananet.net>
 
 The hardware design is released under the Creative Commons Attribution Share-Alike license (see `LICENSE.hw` for details), and the

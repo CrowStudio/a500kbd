@@ -1,39 +1,25 @@
 Amiga 500 PS/2 keyboard controller
 ==================================
 
-About
------
-This project is a PS/2 keyboard controller for the Amiga 500. It makes it
+A500KBD is a PS/2 keyboard controller for the Amiga 500. It makes it
 possible to connect and use an external PS/2 keyboard with the Amiga.
 
-It's based on an AVR atmega168 microcontroller, which reads the PS/2 keyboard
-and translates scancodes to the keyboard signals expected by the Amiga.
+This version only allow to connect the external PS/2 keyboard onto the Amiga 500. Does not bypass it between the PS2 and the internal A500 KB.
 
-See pictures of the PS/2 controller in my Amiga: https://imgur.com/a/rhXS8
-
-It has been reported that this works with the A600 too, by soldering directly
-on the keyboard clock and data lines. I guess it might work with the A1200 as
-well, so if anyone tries it please let me know.
+Original Project website: http://nuclear.mutantstargoat.com/hw/amiga/a500kbd
 
 Directory structure:
 
   * `hw` - hardware: kicad files and pdf schematics.
   * `fw` - firmware for the AVR microcontroller.
 
-Project website: http://nuclear.mutantstargoat.com/hw/amiga/a500kbd
-
 License
 -------
 Copyright (C) 2017 John Tsiombikas <nuclear@member.fsf.org>
+Copyright (C) 2019 Eduardo Arana <info@arananet.net>
 
-You are free to use, reproduce, modify, redistribute any parts of this project,
-provided you make any derivative work you release, freely available under the
-same terms.
-
-More specifically the hardware design is released under the Creative Commons
-Attribution Share-Alike license (see `LICENSE.hw` for details), and the
-software/firmware is released under the GNU General Public License v3, or later
-(see `LICENSE.fw` for details).
+The hardware design is released under the Creative Commons Attribution Share-Alike license (see `LICENSE.hw` for details), and the
+software/firmware is released under the GNU General Public License v3, or later (see `LICENSE.fw` for details).
 
 Instructions
 ------------

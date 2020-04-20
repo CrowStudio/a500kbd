@@ -49,3 +49,8 @@ Notes
 ------------
 
 This is my first design on Kicad, I usually use EaglePCB so if you see any error on the design is just for that :)
+
+# Feedback
+
+If you find any error on this description, please drop me an email to info@arananet.net or If you like the project or want to support it, you can buy me a beer or a KO-FI :) 
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H51MPWG)
